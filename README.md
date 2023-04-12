@@ -8,6 +8,9 @@ When a gas leak is detected, the user is notified with a push notification on th
 </br>
 Demo: [watch the video](https://www.youtube.com/watch?v=Vu_BIzrB8mc)
 
+# Schematics
+![Schema](schema.png)
+
 # Pre-requisites
 - Android Things compatible board (Arduino Uno)
 - Gas detector sensor 
