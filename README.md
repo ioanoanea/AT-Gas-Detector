@@ -91,7 +91,7 @@ import serial
 arduino = serial.Serial('COM7', 9600, timeout=1)
 ```
 </br>
-To send firebase notification send a post call to: [https://fcm.googleapis.com/fcm/send](https://fcm.googleapis.com/fcm/send)
+To send firebase notification send a post call to: https://fcm.googleapis.com/fcm/send
 </br>
 </br>
 In headers incude the API key previously generated.
