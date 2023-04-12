@@ -97,14 +97,12 @@ To send firebase notification send a post call to: https://fcm.googleapis.com/fc
 In headers incude the API key previously generated.
 </br>
 ```
-```
 headers = {
     'Authorization': 'key=' + api_key,
     'Content-Type': 'application/json'
 } 
 ```
-```
 </br>
-
+</br>
 Documentation: https://firebase.google.com/docs/cloud-messaging/send-message#python
 
