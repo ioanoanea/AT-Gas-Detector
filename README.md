@@ -104,5 +104,5 @@ headers = {
 ```
 </br>
 
-Documentation: [https://firebase.google.com/docs/cloud-messaging/send-message#python](https://firebase.google.com/docs/cloud-messaging/send-message#python)
+Documentation: https://firebase.google.com/docs/cloud-messaging/send-message#python
 
