@@ -106,3 +106,9 @@ headers = {
 </br>
 Documentation: https://firebase.google.com/docs/cloud-messaging/send-message#python
 
+# Running
+Install the android app to a phone.
+</br>
+Connect the Arduino board to the pc.
+</br>
+Run the python script.
