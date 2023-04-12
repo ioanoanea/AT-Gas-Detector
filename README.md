@@ -82,15 +82,27 @@ And the internet permission:
 <uses-permission android:name="android.permission.INTERNET" />
 ```
 Official documentation: [https://firebase.google.com/docs/cloud-messaging/android/client](https://firebase.google.com/docs/cloud-messaging/android/client)
-
 </br>
 </br>
 Create a Python script to capture the Arduino serial and send a notification to the phone.
-```{r test-python, engine='python'}
+```
 import serial
 
 arduino = serial.Serial('COM7', 9600, timeout=1)
 ```
+</br>
+To send firebase notification send a post call to: [https://fcm.googleapis.com/fcm/send](https://fcm.googleapis.com/fcm/send)
+</br>
+</br>
+In headers incude the API key previously generated.
+</br>
+```
+headers = {
+    'Authorization': 'key=' + api_key,
+    'Content-Type': 'application/json'
+} 
+```
+</br>
 
-
+Documentation: [https://firebase.google.com/docs/cloud-messaging/send-message#python](https://firebase.google.com/docs/cloud-messaging/send-message#python)
 
